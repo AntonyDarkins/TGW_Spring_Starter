@@ -12,10 +12,12 @@ import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.Size;
 
+import com.tgw.movieapi.persistance.repo.MovieRepo;
+
 @Entity
 public class Movie {
 	
-	
+	MovieRepo repo;
 	// REST API is 
 	
 	@Id
@@ -34,6 +36,8 @@ public class Movie {
 	
 
 	public Integer getId() {
+		
+		repo.
 		return id;
 	}
 
