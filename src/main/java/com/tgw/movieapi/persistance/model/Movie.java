@@ -16,8 +16,6 @@ import com.tgw.movieapi.persistance.repo.MovieRepo;
 
 @Entity
 public class Movie {
-	
-	MovieRepo repo;
 	// REST API is 
 	
 	@Id
@@ -36,8 +34,6 @@ public class Movie {
 	
 
 	public Integer getId() {
-		
-		repo.
 		return id;
 	}
 
